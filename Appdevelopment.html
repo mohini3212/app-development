@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App development</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f8f6f6;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            min-height: 100vh;
+            background-image: linear-gradient(rgba(247, 246, 246, 0.65), rgba(243, 240, 240, 0.65)), url('code-image.avif');
+            background-position: right;
+            background-size: auto;
+            background-repeat: no-repeat;
+            padding: 14px, 8%;
+
+        }
+
+        nav {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0;
+
+        }
+
+        .LOGO {
+            font-size: large;
+            font-weight: bolder;
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: right;
+            padding-right: 60px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 10px 20px;
+        }
+
+        nav ul li a{
+            color: black;
+            text-decoration: none;
+        } 
+
+        nav ul li a:hover{
+            color: rgb(0, 65, 204);
+            text-decoration: underline;
+        } 
+        .btn {
+            display: flex;
+            text-align: left;
+            padding: 10px;
+            bottom: 0;
+            outline: 0;
+            border-radius: 10px;
+            color: white;
+            background-color: blue;
+            font-weight: 500;
+            cursor: pointer;
+            margin-top: 35PX;
+        }
+
+        .content {
+            margin-top: 86px;
+            color: black;
+            max-width: 620px;
+
+        }
+
+        .content h1 {
+            font-size: 70px;
+            font-weight: 700;
+            line-height: 75px;
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div CLASS="LOGO">YOUR LOGO</div>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">INFO</a></li>
+                <li><a href="#">CONTACT US</a></li>
+
+            </ul>
+        </nav>
+
+        <div class="content">
+            <h1> APP DEVELOPMENT</h1>
+            <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga amet libero eum eveniet quidem ullam
+                doloremque, obcaecati doloribus aut porro rerum quisquam non laborum recusandae quod, provident rem.
+                Voluptatum, impedit.</P>
+
+        </div>
+        <button class="btn">GET STARTED</button>
+    </div>
+
+</body>
+
+</html>
